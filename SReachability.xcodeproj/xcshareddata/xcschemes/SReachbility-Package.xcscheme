@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "SReachbility::SReachbility"
                BuildableName = "SReachbility.framework"
-               BlueprintName = "SReachbility"
-               ReferencedContainer = "container:SReachbility.xcodeproj">
+               BlueprintName = "SReachability"
+               ReferencedContainer = "container:SReachability.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,8 +35,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "SReachbility::SReachbilityTests"
                BuildableName = "SReachbilityTests.xctest"
-               BlueprintName = "SReachbilityTests"
-               ReferencedContainer = "container:SReachbility.xcodeproj">
+               BlueprintName = "SReachabilityTests"
+               ReferencedContainer = "container:SReachability.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -59,8 +59,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "SReachbility::SReachbility"
             BuildableName = "SReachbility.framework"
-            BlueprintName = "SReachbility"
-            ReferencedContainer = "container:SReachbility.xcodeproj">
+            BlueprintName = "SReachability"
+            ReferencedContainer = "container:SReachability.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>

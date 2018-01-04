@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		"SReachbility::SReachbilityPackageTests::ProductTarget" /* SReachbilityPackageTests */ = {
+		"SReachbility::SReachbilityPackageTests::ProductTarget" /* SReachabilityPackageTests */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = OBJ_39 /* Build configuration list for PBXAggregateTarget "SReachbilityPackageTests" */;
+			buildConfigurationList = OBJ_39 /* Build configuration list for PBXAggregateTarget "SReachabilityPackageTests" */;
 			buildPhases = (
 			);
 			dependencies = (
 				OBJ_42 /* PBXTargetDependency */,
 			);
-			name = SReachbilityPackageTests;
+			name = SReachabilityPackageTests;
 			productName = SReachbilityPackageTests;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
 		OBJ_21 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
-		OBJ_27 /* SReachbilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* SReachbilityTests.swift */; };
+		OBJ_27 /* ReachabilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* ReachabilityTests.swift */; };
 		OBJ_29 /* SReachbility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SReachbility::SReachbility::Product" /* SReachbility.framework */; };
-		OBJ_36 /* SReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* SReachability.swift */; };
+		OBJ_36 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Reachability.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,11 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		OBJ_12 /* SReachbilityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SReachbilityTests.swift; sourceTree = "<group>"; };
+		OBJ_12 /* ReachabilityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityTests.swift; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		OBJ_9 /* SReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SReachability.swift; sourceTree = "<group>"; };
+		OBJ_9 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		"SReachbility::SReachbility::Product" /* SReachbility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SReachbility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"SReachbility::SReachbilityTests::Product" /* SReachbilityTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = SReachbilityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		"SReachbility::SReachbilityTests::Product" /* SReachabilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = SReachabilityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +82,7 @@
 		OBJ_11 /* SReachbilityTests */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_12 /* SReachbilityTests.swift */,
+				OBJ_12 /* ReachabilityTests.swift */,
 			);
 			name = SReachbilityTests;
 			path = Tests/SReachbilityTests;
@@ -91,13 +91,13 @@
 		OBJ_13 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				"SReachbility::SReachbilityTests::Product" /* SReachbilityTests.xctest */,
+				"SReachbility::SReachbilityTests::Product" /* SReachabilityTests.xctest */,
 				"SReachbility::SReachbility::Product" /* SReachbility.framework */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -105,7 +105,6 @@
 				OBJ_10 /* Tests */,
 				OBJ_13 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -119,7 +118,7 @@
 		OBJ_8 /* SReachbility */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_9 /* SReachability.swift */,
+				OBJ_9 /* Reachability.swift */,
 			);
 			name = SReachbility;
 			path = Sources/SReachbility;
@@ -128,9 +127,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		"SReachbility::SReachbility" /* SReachbility */ = {
+		"SReachbility::SReachbility" /* SReachability */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_32 /* Build configuration list for PBXNativeTarget "SReachbility" */;
+			buildConfigurationList = OBJ_32 /* Build configuration list for PBXNativeTarget "SReachability" */;
 			buildPhases = (
 				OBJ_35 /* Sources */,
 				OBJ_37 /* Frameworks */,
@@ -139,14 +138,14 @@
 			);
 			dependencies = (
 			);
-			name = SReachbility;
+			name = SReachability;
 			productName = SReachbility;
 			productReference = "SReachbility::SReachbility::Product" /* SReachbility.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		"SReachbility::SReachbilityTests" /* SReachbilityTests */ = {
+		"SReachbility::SReachbilityTests" /* SReachabilityTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_23 /* Build configuration list for PBXNativeTarget "SReachbilityTests" */;
+			buildConfigurationList = OBJ_23 /* Build configuration list for PBXNativeTarget "SReachabilityTests" */;
 			buildPhases = (
 				OBJ_26 /* Sources */,
 				OBJ_28 /* Frameworks */,
@@ -156,14 +155,14 @@
 			dependencies = (
 				OBJ_30 /* PBXTargetDependency */,
 			);
-			name = SReachbilityTests;
+			name = SReachabilityTests;
 			productName = SReachbilityTests;
-			productReference = "SReachbility::SReachbilityTests::Product" /* SReachbilityTests.xctest */;
+			productReference = "SReachbility::SReachbilityTests::Product" /* SReachabilityTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		"SReachbility::SwiftPMPackageDescription" /* SReachbilityPackageDescription */ = {
+		"SReachbility::SwiftPMPackageDescription" /* SReachabilityPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_17 /* Build configuration list for PBXNativeTarget "SReachbilityPackageDescription" */;
+			buildConfigurationList = OBJ_17 /* Build configuration list for PBXNativeTarget "SReachabilityPackageDescription" */;
 			buildPhases = (
 				OBJ_20 /* Sources */,
 			);
@@ -171,7 +170,7 @@
 			);
 			dependencies = (
 			);
-			name = SReachbilityPackageDescription;
+			name = SReachabilityPackageDescription;
 			productName = SReachbilityPackageDescription;
 			productType = "com.apple.product-type.framework";
 		};
@@ -183,22 +182,22 @@
 			attributes = {
 				LastUpgradeCheck = 9999;
 			};
-			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "SReachbility" */;
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "SReachability" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_13 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				"SReachbility::SwiftPMPackageDescription" /* SReachbilityPackageDescription */,
-				"SReachbility::SReachbilityTests" /* SReachbilityTests */,
-				"SReachbility::SReachbility" /* SReachbility */,
-				"SReachbility::SReachbilityPackageTests::ProductTarget" /* SReachbilityPackageTests */,
+				"SReachbility::SwiftPMPackageDescription" /* SReachabilityPackageDescription */,
+				"SReachbility::SReachbilityTests" /* SReachabilityTests */,
+				"SReachbility::SReachbility" /* SReachability */,
+				"SReachbility::SReachbilityPackageTests::ProductTarget" /* SReachabilityPackageTests */,
 			);
 		};
 /* End PBXProject section */
@@ -216,7 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_27 /* SReachbilityTests.swift in Sources */,
+				OBJ_27 /* ReachabilityTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_36 /* SReachability.swift in Sources */,
+				OBJ_36 /* Reachability.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,12 +232,12 @@
 /* Begin PBXTargetDependency section */
 		OBJ_30 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "SReachbility::SReachbility" /* SReachbility */;
+			target = "SReachbility::SReachbility" /* SReachability */;
 			targetProxy = 627C9CE01FF6142900557050 /* PBXContainerItemProxy */;
 		};
 		OBJ_42 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "SReachbility::SReachbilityTests" /* SReachbilityTests */;
+			target = "SReachbility::SReachbilityTests" /* SReachabilityTests */;
 			targetProxy = 627C9CE11FF6142900557050 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -249,6 +248,7 @@
 			buildSettings = {
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				PRODUCT_NAME = SReachabilityPackageDescription;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -258,6 +258,7 @@
 			buildSettings = {
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				PRODUCT_NAME = SReachabilityPackageDescription;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
@@ -275,6 +276,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_NAME = SReachabilityTests;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = SReachbilityTests;
 			};
@@ -293,6 +295,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_NAME = SReachabilityTests;
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = SReachbilityTests;
 			};
@@ -387,19 +390,21 @@
 		OBJ_40 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				PRODUCT_NAME = SReachabilityPackageTests;
 			};
 			name = Debug;
 		};
 		OBJ_41 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				PRODUCT_NAME = SReachabilityPackageTests;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		OBJ_17 /* Build configuration list for PBXNativeTarget "SReachbilityPackageDescription" */ = {
+		OBJ_17 /* Build configuration list for PBXNativeTarget "SReachabilityPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				OBJ_18 /* Debug */,
@@ -408,7 +413,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_2 /* Build configuration list for PBXProject "SReachbility" */ = {
+		OBJ_2 /* Build configuration list for PBXProject "SReachability" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				OBJ_3 /* Debug */,
@@ -417,7 +422,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_23 /* Build configuration list for PBXNativeTarget "SReachbilityTests" */ = {
+		OBJ_23 /* Build configuration list for PBXNativeTarget "SReachabilityTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				OBJ_24 /* Debug */,
@@ -426,7 +431,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_32 /* Build configuration list for PBXNativeTarget "SReachbility" */ = {
+		OBJ_32 /* Build configuration list for PBXNativeTarget "SReachability" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				OBJ_33 /* Debug */,
@@ -435,7 +440,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_39 /* Build configuration list for PBXAggregateTarget "SReachbilityPackageTests" */ = {
+		OBJ_39 /* Build configuration list for PBXAggregateTarget "SReachabilityPackageTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				OBJ_40 /* Debug */,
